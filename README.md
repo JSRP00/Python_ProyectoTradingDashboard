@@ -16,7 +16,8 @@ Interactive dashboard for cryptocurrency pairs, built with Dash on live market d
 | `main.py` | Dash app and callbacks |
 | `kraken_data.py` | Kraken API client |
 | `indicator_calculator.py` | Bollinger Bands, RSI and MACD |
-| `Test_ProyectoTradingDashboard.py` | Unit tests |
+| `test_dashboard.py` | Unit tests |
+| `exploration.ipynb` | Initial exploration of the Kraken API |
 | `MemoriaTradingDashboard.pdf` | Project report (Spanish) |
 
 ## Run it
@@ -28,4 +29,4 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The app opens in the browser. Tests: `pytest Test_ProyectoTradingDashboard.py` (the data tests call the Kraken API and need internet access).
+The app opens in the browser. Tests: `pytest test_dashboard.py` (the data tests call the Kraken API and need internet access).

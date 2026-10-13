@@ -1,5 +1,6 @@
 import unittest
-from ProyectoTradingDashboard import KrakenData, IndicatorCalculator
+from kraken_data import KrakenData
+from indicator_calculator import IndicatorCalculator
 import pandas as pd
 
 class TestKrakenData(unittest.TestCase):
